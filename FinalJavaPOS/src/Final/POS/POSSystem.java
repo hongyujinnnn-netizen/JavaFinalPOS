@@ -14,9 +14,14 @@ public class POSSystem {
     public void start() {
         boolean running = true;
 
-        System.out.println("╔════════════════════════════════════════════════╗");
-        System.out.println("║   Welcome to Tech Store POS System!            ║");
-        System.out.println("╚════════════════════════════════════════════════╝");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~ ____   ___  ____    ____            _                 ~");
+        System.out.println("~|  _ \\ / _ \\/ ___|  / ___| _   _ ___| |_ ___ _ __ ___  ~");
+        System.out.println("~| |_) | | | \\___ \\  \\___ \\| | | / __| __/ _ \\ '_ ` _ \\ ~");
+        System.out.println("~|  __/| |_| |___) |  ___) | |_| \\__ \\ ||  __/ | | | | |~");
+        System.out.println("~|_|    \\___/|____/  |____/ \\__, |___/\\__\\___|_| |_| |_|~");
+        System.out.println("~                           |___/                       ~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         while (running) {
             DisplayUtil.displayMenu();
@@ -208,6 +213,7 @@ public class POSSystem {
         pos.start();
     }
 }
+
 
 
 
